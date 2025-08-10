@@ -1,9 +1,8 @@
 body{
-    background-color: #bbd1db;
+    background-color: #00ffff;
     font-family: Arial, sans-serif;
     color: #333;
-    text-align: center;
-    padding: 90px 20px;
+    text-align: center;justify-content: center;
 }
 a{
     text-decoration: none;
@@ -13,7 +12,17 @@ a{
     transition: color 0.3s, font-size 0.3s;
 }
 a:hover{
-    color: #3c83e7;
+    color: #233144;
     font-size: 35px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+mark{
+    background-color: #254a4c;
+    color: #d9e6ea;
+    padding: 5px;
+    border-radius: 5px;
+}
