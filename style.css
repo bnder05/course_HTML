@@ -19,7 +19,9 @@ a:hover{
 img {
     width: 100%;
     height: auto;
+    transition: 0.3s;
 }
+
 mark{
     background-color: #254a4c;
     color: #d9e6ea;
