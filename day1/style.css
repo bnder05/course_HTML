@@ -32,3 +32,23 @@ mark{
     padding: 5px;
     border-radius: 5px;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0 ;
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+th{
+    background-color: #394144;
+    color: #d9e6ea;
+    bottom: 1px solid #1a2427;
+}
+td{
+    background-color: #bfcfd6;
+    padding: 5px;
+    border-radius: 5px;
+}
