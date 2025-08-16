@@ -1,0 +1,74 @@
+body{
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   padding: 20px 20px;
+}
+
+header{
+   background-color: #35424a;
+   color: #ffffff;
+   padding: 100px 0;
+   text-align: center;
+   
+   
+}
+
+form.login-form{
+      text-align: center;
+      max-width: 400px;
+      border: 3px solid #35424a;
+      border-radius: 5px;
+      padding: 20px;
+      
+}
+nav {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    a,
+    a:visited,
+    a:active,
+    a:hover {
+        color: inherit;         /* أو اختر لونك المفضل */
+        text-decoration: none;  /* لإزالة الخط السفلي */
+    }
+    font-size: 30px;
+    gap: 30px; /* أضف هذا السطر لزيادة المسافة بين الأزرار */
+}
+a:hover{
+    color: #ffffff;
+    font-size: 35px;
+    transition: 0.3s;
+}
+button{
+    background-color: #35424a;
+    color: #ffffff;
+    max-width: 400px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+main{
+   display: flex;
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+   margin: 50px auto;
+}
+
+footer{
+    
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}

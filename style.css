@@ -3,6 +3,7 @@ body{
     font-family: Arial, sans-serif;
     color: #333;
     text-align: flex-start;justify-content: center;
+}
 /* توسيط صورة زر الانتقال وتحديد حجمها */
 .center-img {
     display: flex;
