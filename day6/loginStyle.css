@@ -21,8 +21,8 @@ form.login-form{
       text-align: center;
       max-width: 400px;
       border: 3px solid #35424a;
-      border-radius: 5px;
-      padding: 20px;
+      border-radius: 15px;
+      padding: 20px 30px;
       
 }
 nav {
@@ -34,11 +34,11 @@ nav {
     a:visited,
     a:active,
     a:hover {
-        color: inherit;         /* أو اختر لونك المفضل */
-        text-decoration: none;  /* لإزالة الخط السفلي */
+        color: inherit;        
+        text-decoration: none; 
     }
     font-size: 30px;
-    gap: 30px; /* أضف هذا السطر لزيادة المسافة بين الأزرار */
+    gap: 30px;
 }
 a:hover{
     color: #ffffff;
@@ -50,7 +50,7 @@ button{
     color: #ffffff;
     max-width: 400px;
     border-radius: 5px;
-    padding: 20px 20px;
+    padding: 10px 30px;
     cursor: pointer;
     margin: 10px 0;
 }
